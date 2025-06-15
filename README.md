@@ -10,11 +10,11 @@ Pipeline with Active Object
 
 ## Features ##
 
-### Multi-client support ### : 
+### Multi-client support : 
 
 Handles up to 10 clients simultaneously.
 
-#### Commands supported #### :
+#### Commands supported :
 
 newgraph — Initialize a new graph
 
