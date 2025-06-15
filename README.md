@@ -6,7 +6,7 @@ This project is an advanced Operating Systems assignment that implements a concu
 
 ## Features ##
 
-*MST Computation*
+### MST Computation ###
 
 Support for multiple MST algorithms via a Factory:
 
@@ -16,7 +16,7 @@ Prim
 
 Strategy Pattern for interchangeable MST solvers.
 
-*Graph Metrics*
+### Graph Metrics ###
 
 The system provides the following graph insights after computing an MST:
 
@@ -28,7 +28,7 @@ Average distance between all vertex pairs.
 
 Shortest distance between any two connected vertices in the MST.
 
-*Server Architecture
+### Server Architecture ###
 Graph and command management via a client-server model.
 
 Server accepts:
@@ -39,7 +39,7 @@ Graph modification commands
 
 MST computation requests
 
-*Concurrency Models*
+### Concurrency Models ###
 
 Pipeline Mode (PipeLine/)
 
@@ -49,9 +49,9 @@ Leader-Follower Mode (LF/)
 
 Implements a custom Thread Pool with LF scheduling for request handling.
 
-*Performance & Debugging Tools*
+### Performance & Debugging Tools ###
 
-Valgrind:
+#### Valgrind ####:
 
 memcheck for memory leaks
 
