@@ -101,7 +101,7 @@ Graph modification commands
 
 MST computation requests
 
-## Build Instructions## 
+## Build Instructions ## 
 
 Clone the repository:
 
@@ -121,20 +121,20 @@ pipeline_app (Active Object server)
 
 ## Usage ##
 
-### Start the server ###:
+### Start the server :
 
 ./LF_app or ./pipeline_app
 
 The server will start listening on port 9034 for incoming client connections.
 
-### Connect a client ###:
+### Connect a client :
 You can test the server using netcat or telnet:
 
 nc localhost 9034
 
 This will compile the project and generate the executable(s).
 
-### Send commands ### :
+### Send commands  :
 
 Type any of the following commands followed by Enter:
 newgraph
