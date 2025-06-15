@@ -149,7 +149,7 @@ kruskal
 
 exit
 
-### Shutdown server ###:
+### Shutdown server :
 In the server console where ./LF_app is running, type:
 
 ## Project Structure ## 
