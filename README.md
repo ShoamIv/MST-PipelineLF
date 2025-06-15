@@ -10,7 +10,7 @@ Pipeline with Active Object
 
 ## Features ##
 
-### Multi-client support ### : Handles up to 10 clients simultaneously.
+### Multi-client support### : Handles up to 10 clients simultaneously.
 
 #### Commands supported #### :
 
