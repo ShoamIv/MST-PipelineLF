@@ -21,15 +21,6 @@
 #include "kruskalMST.hpp"
 #include "Graph.hpp"
 
-enum class Command {
-    Newgraph,
-    Prim,
-    Kruskal,
-    Addedge,
-    Removeedge,
-    Exit,
-    Invalid
-};
 
 // Abstract base class for active objects
 class ActiveObject {

@@ -4,6 +4,16 @@
 #include <vector>
 #include <string>
 
+enum class Command {
+    Newgraph,
+    Prim,
+    Kruskal,
+    Addedge,
+    Removeedge,
+    Exit,
+    Invalid
+};
+
 class Graph 
 {
     public:

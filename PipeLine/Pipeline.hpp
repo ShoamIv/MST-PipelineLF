@@ -2,10 +2,9 @@
 #include <atomic>
 #include <future>
 #include "MSTInfo.hpp"
-class Pipeline{
-    
 
- struct MSTResult {
+class Pipeline{
+    struct MSTResult {
     std::vector<std::vector<std::pair<int, int>>> mst;  // The adjacency list representation of the MST
     double totalWeight;        // The total weight of the MST
     double shortestDistance;   // Shortest distance between any two nodes in the MST

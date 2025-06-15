@@ -11,15 +11,7 @@
 #include <atomic>
 #include <iostream>
 #include <sys/socket.h>
-enum class Command {
-    Newgraph,
-    Prim,
-    Kruskal,
-    Addedge,
-    Removeedge,
-    Exit,
-    Invalid
-};
+#include "MSTFactory.hpp"
 
 class ThreadPool {
 public:

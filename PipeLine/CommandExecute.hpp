@@ -6,6 +6,7 @@
 #include "Graph.hpp"
 #include "ActiveObject.hpp"
 #include "Pipeline.hpp"
+
 class CommandExecute {
 public:
      Command processCommand(int client_fd, Command command);
