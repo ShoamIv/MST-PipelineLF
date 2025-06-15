@@ -182,7 +182,7 @@ gcov/: Code coverage reports (requires compilation with --coverage)
 
 Same structure as LF_Reports/, for the Pipeline-based implementation.
 
-### Tools Used ###:
+### Tools Used :
 
 valgrind
 
