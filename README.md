@@ -32,9 +32,9 @@ Graceful shutdown: Type shutdown in the server console to stop the server.
 
 Thread-safe design: Uses std::thread, mutexes, and atomic flags.
 
-#### Pipeline Active Object Pattern #### — Asynchronous command execution using a task queue and worker thread pool
+#### Pipeline Active Object Pattern  — Asynchronous command execution using a task queue and worker thread pool
 
-#### Leader-Follower Thread Pool #### — Efficient thread pool with dynamic role switching to manage client load
+#### Leader-Follower Thread Pool  — Efficient thread pool with dynamic role switching to manage client load
 
 ## Architecture & Design Patterns ##
 
